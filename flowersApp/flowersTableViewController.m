@@ -58,12 +58,11 @@
 
 #pragma  mark - add flower delegate
 -(void)addFlower:(flowerClass *)flower{
-   // _Flowersnew=[[NSMutableArray alloc]init];
-    [_Flowersnew addObject:flower];
+    [self.Flowersnew addObject:flower];
     NSLog(@"add flower is : %lu",[_Flowersnew count]);
    
    [self dismissViewControllerAnimated:YES completion:nil];
-     [self.tableView reloadData];
+    [self.tableView reloadData];
 }
 
 -(void)getTextName:(NSString *)name{
