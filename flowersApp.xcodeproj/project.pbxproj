@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D37126210B39D2002D9D31 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D37125210B39D2002D9D31 /* DetailViewController.m */; };
+		02E3B481212C584000B58987 /* AddflowesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E3B480212C584000B58987 /* AddflowesViewController.m */; };
+		8421699F20F4003900B592AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421699E20F4003900B592AC /* AppDelegate.m */; };
+		842169A520F4003900B592AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842169A320F4003900B592AC /* Main.storyboard */; };
+		842169A720F4004200B592AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842169A620F4004200B592AC /* Assets.xcassets */; };
+		842169AA20F4004200B592AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842169A820F4004200B592AC /* LaunchScreen.storyboard */; };
+		842169AD20F4004200B592AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842169AC20F4004200B592AC /* main.m */; };
+		842169B520F5D6E700B592AC /* FlowersData.m in Sources */ = {isa = PBXBuildFile; fileRef = 842169B420F5D6E700B592AC /* FlowersData.m */; };
+		842169BE20F5D6E700B592AC /* images in Resources */ = {isa = PBXBuildFile; fileRef = 842169BD20F5D6E700B592AC /* images */; };
+		842169C120F5EADF00B592AC /* flowerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 842169C020F5EADF00B592AC /* flowerClass.m */; };
+		842169C420F5F44100B592AC /* flowersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842169C320F5F44100B592AC /* flowersTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02D37124210B39D2002D9D31 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		02D37125210B39D2002D9D31 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		02E3B47F212C584000B58987 /* AddflowesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddflowesViewController.h; sourceTree = "<group>"; };
+		02E3B480212C584000B58987 /* AddflowesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddflowesViewController.m; sourceTree = "<group>"; };
+		8421699A20F4003900B592AC /* flowersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8421699D20F4003900B592AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8421699E20F4003900B592AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842169A420F4003900B592AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842169A620F4004200B592AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842169A920F4004200B592AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842169AB20F4004200B592AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842169AC20F4004200B592AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842169B320F5D6E700B592AC /* FlowersData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowersData.h; sourceTree = "<group>"; };
+		842169B420F5D6E700B592AC /* FlowersData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowersData.m; sourceTree = "<group>"; };
+		842169BD20F5D6E700B592AC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		842169BF20F5EADF00B592AC /* flowerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flowerClass.h; sourceTree = "<group>"; };
+		842169C020F5EADF00B592AC /* flowerClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flowerClass.m; sourceTree = "<group>"; };
+		842169C220F5F44100B592AC /* flowersTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flowersTableViewController.h; sourceTree = "<group>"; };
+		842169C320F5F44100B592AC /* flowersTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flowersTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8421699720F4003900B592AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8421699120F4003900B592AC = {
+			isa = PBXGroup;
+			children = (
+				8421699C20F4003900B592AC /* flowersApp */,
+				8421699B20F4003900B592AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8421699B20F4003900B592AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8421699A20F4003900B592AC /* flowersApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8421699C20F4003900B592AC /* flowersApp */ = {
+			isa = PBXGroup;
+			children = (
+				8421699D20F4003900B592AC /* AppDelegate.h */,
+				8421699E20F4003900B592AC /* AppDelegate.m */,
+				842169B320F5D6E700B592AC /* FlowersData.h */,
+				842169B420F5D6E700B592AC /* FlowersData.m */,
+				842169A320F4003900B592AC /* Main.storyboard */,
+				02E3B47F212C584000B58987 /* AddflowesViewController.h */,
+				02E3B480212C584000B58987 /* AddflowesViewController.m */,
+				02D37124210B39D2002D9D31 /* DetailViewController.h */,
+				02D37125210B39D2002D9D31 /* DetailViewController.m */,
+				842169C220F5F44100B592AC /* flowersTableViewController.h */,
+				842169C320F5F44100B592AC /* flowersTableViewController.m */,
+				842169BF20F5EADF00B592AC /* flowerClass.h */,
+				842169C020F5EADF00B592AC /* flowerClass.m */,
+				842169A620F4004200B592AC /* Assets.xcassets */,
+				842169BD20F5D6E700B592AC /* images */,
+				842169A820F4004200B592AC /* LaunchScreen.storyboard */,
+				842169AB20F4004200B592AC /* Info.plist */,
+				842169AC20F4004200B592AC /* main.m */,
+			);
+			path = flowersApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8421699920F4003900B592AC /* flowersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842169B020F4004200B592AC /* Build configuration list for PBXNativeTarget "flowersApp" */;
+			buildPhases = (
+				8421699620F4003900B592AC /* Sources */,
+				8421699720F4003900B592AC /* Frameworks */,
+				8421699820F4003900B592AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flowersApp;
+			productName = flowersApp;
+			productReference = 8421699A20F4003900B592AC /* flowersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8421699220F4003900B592AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8421699920F4003900B592AC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8421699520F4003900B592AC /* Build configuration list for PBXProject "flowersApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8421699120F4003900B592AC;
+			productRefGroup = 8421699B20F4003900B592AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8421699920F4003900B592AC /* flowersApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8421699820F4003900B592AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842169BE20F5D6E700B592AC /* images in Resources */,
+				842169AA20F4004200B592AC /* LaunchScreen.storyboard in Resources */,
+				842169A720F4004200B592AC /* Assets.xcassets in Resources */,
+				842169A520F4003900B592AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8421699620F4003900B592AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842169B520F5D6E700B592AC /* FlowersData.m in Sources */,
+				842169C120F5EADF00B592AC /* flowerClass.m in Sources */,
+				02E3B481212C584000B58987 /* AddflowesViewController.m in Sources */,
+				842169C420F5F44100B592AC /* flowersTableViewController.m in Sources */,
+				842169AD20F4004200B592AC /* main.m in Sources */,
+				8421699F20F4003900B592AC /* AppDelegate.m in Sources */,
+				02D37126210B39D2002D9D31 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842169A320F4003900B592AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842169A420F4003900B592AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842169A820F4004200B592AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842169A920F4004200B592AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842169AE20F4004200B592AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842169AF20F4004200B592AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842169B120F4004200B592AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3NK7U77Q3;
+				INFOPLIST_FILE = flowersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = walidelzo.flowersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842169B220F4004200B592AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3NK7U77Q3;
+				INFOPLIST_FILE = flowersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = walidelzo.flowersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8421699520F4003900B592AC /* Build configuration list for PBXProject "flowersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842169AE20F4004200B592AC /* Debug */,
+				842169AF20F4004200B592AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842169B020F4004200B592AC /* Build configuration list for PBXNativeTarget "flowersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842169B120F4004200B592AC /* Debug */,
+				842169B220F4004200B592AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8421699220F4003900B592AC /* Project object */;
+}
