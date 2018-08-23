@@ -29,7 +29,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
       self.myflowers=[[NSMutableArray alloc]init];
-      ///_Flowersnew =[[NSMutableArray alloc]init];
+    
     for (NSMutableDictionary *flower in [FlowersData allFlowerData]) {
         self.flowerclasss  =[[flowerClass alloc]initWithData:flower];
         [self.myflowers addObject:self.flowerclasss];
@@ -41,14 +41,14 @@
 
 #pragma  mark - lazy instanstion
 
-//-(NSMutableArray *)_Flowersnew{
-//    if(!_Flowersnew){
-//
-//        _Flowersnew=[[NSMutableArray alloc ] init];
-//
-//    }
-//    return _Flowersnew;
-//}
+-(NSMutableArray*)Flowersnew{
+    if (!_Flowersnew)
+    {
+        _Flowersnew=[[NSMutableArray alloc]init];
+    }
+    
+    return _Flowersnew;
+}
 
 
 
@@ -58,7 +58,7 @@
 
 #pragma  mark - add flower delegate
 -(void)addFlower:(flowerClass *)flower{
-    _Flowersnew=[[NSMutableArray alloc]init];
+   // _Flowersnew=[[NSMutableArray alloc]init];
     [_Flowersnew addObject:flower];
     NSLog(@"add flower is : %lu",[_Flowersnew count]);
    
@@ -82,11 +82,11 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
     if (_Flowersnew){
-          NSLog(@"\n tow section");
+        
         return 2;
       
     }else {
-         NSLog(@"\n one section");
+      
         return 1;
     }
     
