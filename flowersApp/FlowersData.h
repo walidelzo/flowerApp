@@ -12,7 +12,7 @@
 #define FLOWER_COUNTRY @"the country which flower farm"
 #define FLOWER_ORIGIN  @"the origin of the folwer"
 #define FLOWER_GROWTH_PERIOD @"the period flower to grows"
-
+#define FLOWER_IMAGE @"flower image"
 
 
 

@@ -19,14 +19,14 @@
     return self;
 }
 
--(id) initWithData : (NSDictionary *) data {
+-(id) initWithData : (NSDictionary *) data andImage:(UIImage*)image {
     
     self.flowerName=data[FLOWER_NAME];
     self.flowerCountry=data[FLOWER_COUNTRY];
     self.flowerOrigin=data[FLOWER_ORIGIN];
     self.flowerPeriod=[data[FLOWER_GROWTH_PERIOD] intValue];
-    NSString *imageName=[NSString stringWithFormat:@"images/%@.jpeg",self.flowerName];
-    self.flowerImage= [UIImage imageNamed:imageName];
+   // NSString *imageName=[NSString stringWithFormat:@"images/%@.jpeg",self.flowerName];
+    self.flowerImage= image;
 
     return self;
 }

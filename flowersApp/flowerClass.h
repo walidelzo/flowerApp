@@ -14,5 +14,5 @@
 @property (strong,nonatomic) NSString *flowerOrigin;
 @property (nonatomic) int flowerPeriod;
 @property (strong,nonatomic) UIImage *flowerImage;
--(id) initWithData : (NSDictionary *) data ;
+-(id) initWithData : (NSDictionary *) data andImage:(UIImage*)image ;
 @end
